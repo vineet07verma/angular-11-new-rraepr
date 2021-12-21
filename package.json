@@ -12,7 +12,6 @@
     "@angular/platform-browser-dynamic": "11.2.14",
     "@angular/router": "11.2.14",
     "@atlasmap/atlasmap": "2.3.8",
-    "@gooddata/react-components": "7.9.1",
     "@patternfly/react-core": "4.181.5",
     "@patternfly/react-icons": "4.32.5",
     "@patternfly/react-styles": "4.31.5",
