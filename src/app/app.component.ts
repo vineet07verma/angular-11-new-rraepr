@@ -50,7 +50,11 @@ export class AppComponent
   protected render() {
     if (this.isMounted()) {
       ReactDOM.render(
-        React.createElement(AtlasmapProvider, this.getProps()),
+        React.createElement(
+          AtlasmapProvider,
+          this.getProps(),
+          React.createElement(Atlasmap, {}, null)
+        ),
         this.getRootDomNode()
       );
     }
