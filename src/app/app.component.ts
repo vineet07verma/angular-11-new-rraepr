@@ -15,7 +15,7 @@ import { AtlasmapProvider } from '@atlasmap/atlasmap';
 
 @Component({
   selector: 'my-app',
-  template: '<span [id]="rootDomID"></span>',
+  template: `Hello<span [id]="rootDomID"></span>`,
 })
 export class AppComponent
   implements OnInit, OnDestroy, OnChanges, AfterViewInit
@@ -53,7 +53,7 @@ export class AppComponent
   protected render() {
     if (this.isMounted()) {
       ReactDOM.render(
-        React.createElement(AtlasmapProvider, this.getProps()),
+        React.createElement('AtlasmapProvider', this.getProps()),
         this.getRootDomNode()
       );
     }
