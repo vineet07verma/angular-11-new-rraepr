@@ -9,7 +9,7 @@ import {
   OnChanges,
   AfterViewInit,
 } from '@angular/core';
-import { AtlasmapProvider, IAtlasmapProviderProps } from '@atlasmap/atlasmap';
+import { AtlasmapProvider, IAtlasmapProviderProps, Atlasmap } from '@atlasmap/atlasmap';
 
 @Component({
   selector: 'my-app',
